@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -78,16 +77,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require('@tailwindcss/forms')],
 };
-=======
-module.exports = {
-  content: ['./dist/**/*.html', './src/**/*.{js,jsx,ts,tsx}', './*.html'],
-  plugins: [require('@tailwindcss/forms')],
-  variants: {
-    extend: {
-      opacity: ['disabled']
-    }
-  }
-}
->>>>>>> cdbb2de09f559555709fbc1ad8eb7e629cda606c
